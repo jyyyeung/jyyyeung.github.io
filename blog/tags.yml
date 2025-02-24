@@ -1,19 +1,10 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+homelab:
+  label: Homelab
+  permalink: /homelab
+  description: A collection of articles about my homelab
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+coding:
+  label: Coding
+  permalink: /coding
+  description: A collection of articles about coding
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
