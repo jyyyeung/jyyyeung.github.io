@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "16a7f12d3bb97029",
+    "type": "split",
+    "children": [
+      {
+        "id": "25a54ad446c5f747",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2823a256e9b8ea1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documenting/Firewall Rules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d38089258a51359b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ba5578510112e70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "700513e541ddf555",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3e98f648ed4db17",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46d30f717c93561f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0e505d144b5b0f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab1cd94dd36b58c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e694bece9f080357",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "documenting/Firewall Rules.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a93ba76ecb758011",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "documenting/Firewall Rules.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59ac4eb5372c5811",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "24ab8da766f3bc56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "documenting/Firewall Rules.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2823a256e9b8ea1e",
+  "lastOpenFiles": [
+    "documenting/Flowershow Setup.md",
+    "documenting/Firewall Rules.md",
+    "documenting/homelab devices naming.md",
+    "documenting/Security and Monitoring.md",
+    "documenting/VLANs.md",
+    "hardware/hosts.md",
+    "changelog.md"
+  ]
+}

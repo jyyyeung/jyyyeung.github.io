@@ -20,6 +20,9 @@ importers:
       clsx:
         specifier: ^2.0.0
         version: 2.1.1
+      docusaurus-remark-plugin-tab-blocks:
+        specifier: ^3.1.0
+        version: 3.1.0
       prism-react-renderer:
         specifier: ^2.3.0
         version: 2.4.1(react@19.0.0)
@@ -39,6 +42,9 @@ importers:
       '@docusaurus/types':
         specifier: 3.7.0
         version: 3.7.0(acorn@8.14.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      remark-github-admonitions-to-directives:
+        specifier: ^2.1.0
+        version: 2.1.0
       typescript:
         specifier: ~5.6.2
         version: 5.6.3
@@ -2196,6 +2202,10 @@ packages:
     resolution: {integrity: sha512-l4gcSouhcgIKRvyy99RNVOgxXiicE+2jZoNmaNmZ6JXiGajBOJAesk1OBlJuM5k2c+eudGdLxDqXuPCKIj6kpw==}
     engines: {node: '>=6'}
 
+  docusaurus-remark-plugin-tab-blocks@3.1.0:
+    resolution: {integrity: sha512-XKSnOha6Xu9Kt01vnT7AhfFzBPfM1WUQAAmCoDzPNrX0YimvlNqnWVPdJH6CYDJvPLDPRoKaEfgrAA0pnpaSsw==}
+    engines: {node: '>=18.0'}
+
   dom-converter@0.2.0:
     resolution: {integrity: sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA==}
 
@@ -4240,6 +4250,10 @@ packages:
 
   remark-gfm@4.0.1:
     resolution: {integrity: sha512-1quofZ2RQ9EWdeN34S79+KExV1764+wCUGop5CPL1WGdD0ocPpu91lzPGbwWMECpEpd42kJGQwzRfyov9j4yNg==}
+
+  remark-github-admonitions-to-directives@2.1.0:
+    resolution: {integrity: sha512-bI3E4Oj1pKY3ym2IQrrVCdORgEu0+mSrWgpCYFNy8QvytfnLs/nAacVPjkWU/JzDMUiQio2k4nTFP7bsIr9TSA==}
+    engines: {pnpm: '>=9.0.0'}
 
   remark-mdx@3.1.0:
     resolution: {integrity: sha512-Ngl/H3YXyBV9RcRNdlYsZujAmhsxwzxpDzpDEhFBVAGthS4GDgnctpDjgFl/ULx5UEDzqtW1cyBSNKqYYrqLBA==}
@@ -8050,6 +8064,11 @@ snapshots:
     dependencies:
       '@leichtgewicht/ip-codec': 2.0.5
 
+  docusaurus-remark-plugin-tab-blocks@3.1.0:
+    dependencies:
+      unist-util-is: 6.0.0
+      unist-util-visit: 5.0.0
+
   dom-converter@0.2.0:
     dependencies:
       utila: 0.4.0
@@ -10556,6 +10575,15 @@ snapshots:
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
       unified: 11.0.5
+    transitivePeerDependencies:
+      - supports-color
+
+  remark-github-admonitions-to-directives@2.1.0:
+    dependencies:
+      '@types/mdast': 4.0.4
+      mdast-util-directive: 3.1.0
+      unified: 11.0.5
+      unist-util-visit: 5.0.0
     transitivePeerDependencies:
       - supports-color
 

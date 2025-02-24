@@ -1,6 +1,8 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
+import tabBlocks from 'docusaurus-remark-plugin-tab-blocks';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -22,7 +24,22 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
+  // Markdown configuration
+  markdown: {
+    format: 'mdx',
+    mermaid: true,
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+    remarkRehypeOptions: {
+      footnoteLabel: 'Footnotes',
+    },
+    anchors: {
+      maintainCase: true,
+    },
+  },
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -36,11 +53,30 @@ const config: Config = {
       'classic',
       {
         docs: {
+          // id: 'docs',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          admonitions: {
+            keywords: ['summary'],
+            extendDefaults: true,
+          },
+          beforeDefaultRemarkPlugins: [remarkGithubAdmonitionsToDirectives],
+          remarkPlugins: [
+            [
+              tabBlocks,
+              // optional plugin configuration
+              {
+                labels: [
+                  ["json", "JSON"],
+                  ["jsx", "JSX"],
+                  ["tsx", "TSX"],
+                ],
+              },
+            ],
+          ],
         },
         blog: {
           showReadingTime: true,
@@ -50,15 +86,19 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          remarkPlugins: [tabBlocks],
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        pages: {
+          remarkPlugins: [tabBlocks],
         },
       } satisfies Preset.Options,
     ],
@@ -68,19 +108,25 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'JYYYEUNG Personal Website',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'JYYYEUNG Personal Website Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'homelabSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'HomeLab',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'notesSidebar',
+          position: 'left',
+          label: 'Notes',
+        },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -100,23 +146,16 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+
+        //   ],
+        // },
         {
           title: 'More',
           items: [
@@ -125,19 +164,35 @@ const config: Config = {
               to: '/blog',
             },
             {
+              label: 'Notes',
+              to: '/notes',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} jyyyeung. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'php', 'log', 'shell-session', 'diff', 'docker'],
     },
   } satisfies Preset.ThemeConfig,
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-docs',
+  //     {
+  //       id: 'notes',
+  //       path: 'notes',
+  //       routeBasePath: 'notes',
+  //       // ... other options
+  //     },
+  //   ],
+  // ],
 };
 
 export default config;
