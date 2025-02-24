@@ -55,6 +55,7 @@ const config: Config = {
       {
         docs: {
           // id: 'docs',
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -142,8 +143,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Homelab',
+              to: '/homelab/intro',
             },
           ],
         },
@@ -166,7 +167,7 @@ const config: Config = {
             },
             {
               label: 'Notes',
-              to: '/notes',
+              to: '/notes/intro',
             },
             {
               label: 'GitHub',
