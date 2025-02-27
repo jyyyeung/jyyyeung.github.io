@@ -1,4 +1,4 @@
-# Bat 
+# 🦇 Bat 
 
 ![Bat Neofetch](./assets/bat-neofetch.png)
 

@@ -24,17 +24,17 @@ List of current hardware on network that includes network equipment, computer an
 
 | Device Name | CPU      | RAM | Disk   | OS    | Hostname |
 | ----------- | -------- | --- | ------ | ----- | -------- |
-| MacbookAir  | Apple M1 | 16  | 512 GB | MacOS | cannon   |
+| MacBook Air | Apple M1 | 16  | 512 GB | MacOS | cannon   |
 | Mac Mini    | Apple M2 | 16  | 2 TB   | MacOS | shadow   |
 
 ## Network Devices
 
 ### LAN Devices
 
-| Device Name         | # Ports | Type              | Hostname |
-| ------------------- | ------- | ----------------- | -------- |
-| TP-Link TL-SE2109PB | 8 + 1   | Switch (with PoE) | Zeus     |
-| TP-Link TL-SG2024   | 24      | Switch            | Apollo   |
+| Device Name         | # Ports | Type              | Hostname          |
+| ------------------- | ------- | ----------------- | ----------------- |
+| TP-Link TL-SE2109PB | 8 + 1   | Switch (with PoE) | [Zeus](./zeus.md) |
+| TP-Link TL-SG2024   | 24      | Switch            | Apollo            |
 
 ### Router Details
 

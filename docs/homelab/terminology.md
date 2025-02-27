@@ -1,5 +1,5 @@
 ---
-title: terminology
+title: Terminology
 created: 2023-12-06 22:24:57
 modified: 2023-12-06 22:27:33
 ---

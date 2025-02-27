@@ -52,7 +52,7 @@ modified: 2024-01-17 09:37:04
 
 :::note
 
-To save storage space, don't backup data that can be redownloaded
+To save storage space, don't back-up data that can be redownloaded
 
 Source: https://www.reddit.com/r/homelab/comments/1676csh/comment/jyo2ewr/?utm_source=share&utm_medium=web2x&context=3
 
@@ -61,7 +61,7 @@ Source: https://www.reddit.com/r/homelab/comments/1676csh/comment/jyo2ewr/?utm_s
 ## Note 
 :::note
 
-DSM Update is at 1:00 AM
+DSM Update is at 4:30 AM
 
 :::
 

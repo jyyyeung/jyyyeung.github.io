@@ -1,4 +1,4 @@
-# Panda
+# 🐼 Panda
 
 ## Specs
 
@@ -23,9 +23,10 @@
 ## Useful Links
 
 - [Search Compatible Drives](https://www.synology.com/en-global/compatibility?search_by=drives&model=DS920%2B&category=hdds_no_ssd_trim)
+- [Datasheet](https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/20-year/DS920+/cht/Synology_DS920_Plus_Data_Sheet_cht.pdf)
 
 ## Issue and Todos 
 
 - [ ] Fix auto update failing problem
-- [ ] Check Network negotiation always going from 1000Mbps to 100Mbps issue
+- [X] [Check Network negotiation always going from 1000Mbps to 100Mbps issue](../issues/20250227-nas-network-negotiation-issue.md)
 - [ ] Verify disk failure detection and notification

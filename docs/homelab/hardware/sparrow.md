@@ -1,4 +1,4 @@
-# Sparrow
+# 🐦 Sparrow
 
 ![Sparrow Neofetch](./assets/sparrow-neofetch.png)
 

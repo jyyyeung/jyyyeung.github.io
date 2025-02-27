@@ -1,4 +1,4 @@
-# Red Panda
+# 🀄 Red Panda
 
 ![Red Panda Neofetch](./assets/red-panda-neofetch.png)
 
