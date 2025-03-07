@@ -10,18 +10,12 @@
 
 - Can not access SSH/web interfaces of these services, just their ports applicable to the service.
 
-## VLAN X - CCTV (pending)
-
-- no access to the outside world
-- cameras get Internet time served from an internal time server
-- can pass camera feeds to the NVR only
-
 ## VLAN 39 - DMZ 
 
 - Only VLAN that can accept external connections on port 443
 - holds the external facing reverse proxy and has a double firewall
 
-## VLAN 13 - IoT
+## VLAN 228 - IoT
 
 > Many Internet of Things (IoT) devices have questionable security. By placing them on a separate VLAN, you can limit their potential to access other devices or data in your network in case they are compromised.
 
@@ -44,14 +38,10 @@ connection for wireguard tunnel
 > wireguard VPN. Access to MGMT vlan only.
 > https://www.reddit.com/r/homelab/comments/15ke7et/comment/jv5bdim/?utm_source=share&utm_medium=web2x&context=3
 
-## VLAN 139 - Secure 
-- Servers
-- NAS
-- my computers etc. (except work laptop) on it
-
 ## VLAN 100 - Management  
 
 Consider no internet access? 
+
 ### Services
 
 - Proxmox GUI

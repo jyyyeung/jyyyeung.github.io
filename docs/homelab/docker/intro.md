@@ -83,6 +83,10 @@ Below lists containers I have played with before
  - mangatagger
  - plexripper
 
+## Pending Toys 
+
+- [filebrowser](https://filebrowser.org/) or [AList](https://alist.nn.ci/)
+- 
 
 ## Contents 
 
