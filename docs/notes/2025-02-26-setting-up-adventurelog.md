@@ -1,4 +1,12 @@
-# Setting up AdventureLog
+---
+title: Setting up AdventureLog
+created: 2025-02-26 14:32:03
+modified: 2025-02-26 14:32:03
+tags:
+- adventurelog
+- docker
+- traefik
+---
 
 I decided to setup [AdventureLog](../homelab/apps/AdventureLog.md) on my homelab server, using docker compose with swarm, and exposing with traefik. 
 

@@ -1,8 +1,10 @@
 ---
-tags: [kibana]
 title: ELK Stack Setup
 created: 2024-01-12 14:32:03
 modified: 2024-02-03 15:30:30
+tags:
+- elk
+- kibana
 ---
 
 ## Generate Service Token for Kibana

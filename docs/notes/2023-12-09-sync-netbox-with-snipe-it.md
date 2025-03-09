@@ -2,6 +2,9 @@
 title: Sync Netbox with Snipe-IT
 created: 2023-12-09 21:00:19
 modified: 2023-12-10 12:10:57
+tags:
+- netbox
+- snipe-it
 ---
 # Sync Netbox with Snipe-IT
 

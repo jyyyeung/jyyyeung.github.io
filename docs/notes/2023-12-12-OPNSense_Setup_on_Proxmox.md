@@ -2,7 +2,9 @@
 title: OPNSense Setup on Proxmox
 created: 2023-12-12 13:59:22
 modified: 2024-02-03 15:30:59
-tags: [opnsense, proxmox]
+tags:
+- opnsense
+- proxmox
 ---
 
 Network Setup - [Proxmox Network Port Setup](./2023-12-12-Proxmox_Network_Port_Setup.md)

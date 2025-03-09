@@ -2,7 +2,9 @@
 title: Disable IPv6 on Proxmox
 created: 2023-12-12 17:52:26
 modified: 2023-12-12 17:52:39
-tags: [proxmox, network]
+tags:
+- proxmox
+- network
 ---
 # Disable IPv6 on Proxmox
 

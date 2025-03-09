@@ -2,6 +2,9 @@
 title: Firewall Rules
 created: 2024-01-01 09:10:15
 modified: 2024-02-03 15:29:43
+tags:
+- networking
+- firewall
 ---
 
 Firewall rules based on [[VLANs]]
@@ -30,16 +33,16 @@ Firewall rules based on [[VLANs]]
 | IPv4 TCP/UDP | *          | *        | PandaNAS [](https://192.168.100.1:8443/ui/firewall/alias/index/PandaNAS)               | SynologyNAS_Ports [](https://192.168.100.1:8443/ui/firewall/alias/index/SynologyNAS_Ports) | 3            | NAT Synology NAS port                            |
 
 ## APP 
-| **Protocol** | **Source** | **Port** | **Destination** | **Port**    | **Gateway** | **Schedule** | \#interfaces    | **Description** |
-| ------------------ | ---------- | -------- | --------------- | ----------- | ----------- | ------------ | --- | --------------- |
+| **Protocol** | **Source** | **Port** | **Destination** | **Port** | **Gateway** | **Schedule** | \#interfaces | **Description** |
+| ------------ | ---------- | -------- | --------------- | -------- | ----------- | ------------ | ------------ | --------------- |
 
 
 ## DMZ 
 
-| **Protocol** | **Source** | **Port** | **Destination**    | **Port** | **Description**               |
-| ------------ | ---------- | -------- | ------------------ | -------- | ----------------------------- |
-| IPv4 TCP/UDP | DMZ net    | \*       | DMZ address        | 53 (DNS) | Allow access to DNS           |
-| IPv4 \*      | DMZ net    | \*       | ! PrivateNetworks  | \*       | Allow access only to Internet |
+| **Protocol** | **Source** | **Port** | **Destination**   | **Port** | **Description**               |
+| ------------ | ---------- | -------- | ----------------- | -------- | ----------------------------- |
+| IPv4 TCP/UDP | DMZ net    | \*       | DMZ address       | 53 (DNS) | Allow access to DNS           |
+| IPv4 \*      | DMZ net    | \*       | ! PrivateNetworks | \*       | Allow access only to Internet |
 
 
 ## Guest 

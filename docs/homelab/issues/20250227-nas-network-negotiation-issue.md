@@ -13,11 +13,11 @@ tags:
 ## 📝 Description
 
 - Synology NAS: [Panda](../hardware/panda.md)
-- Network Switch: [Zeus](./zeus.md)
+- Network Switch: [Zeus](../hardware/zeus.md)
 
 ## 🔍 Symptoms
 
-![Synology NAS Screenshot](./assets/20250227-nas-network-negotiation-issue.png)
+![Synology NAS Screenshot](./assets/20250227-negotiation-issue.png)
 
 The NAS negotiates a 100Mbps connection, but I know for a fact that it should be able to negotiate a 1000Mbps connection.
 
@@ -29,7 +29,7 @@ The NAS negotiates a 100Mbps connection, but I know for a fact that it should be
 
 ### Check Switch Specs 
 
-It is connected to the network via [Zeus](./zeus.md) Port 8. 
+It is connected to the network via [Zeus](../hardware/zeus.md) Port 8. 
 
 All other ports are able to auto-negotiate 1000Mbps. Therefore, the issue must be on the NAS side.
 

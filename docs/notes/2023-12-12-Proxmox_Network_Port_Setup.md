@@ -2,6 +2,9 @@
 title: Proxmox Network Port Setup
 created: 2023-12-12 13:55:01
 modified: 2023-12-12 17:51:05
+tags:
+- proxmox
+- network
 ---
 
 

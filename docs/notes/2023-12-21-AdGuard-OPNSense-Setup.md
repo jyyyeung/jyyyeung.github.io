@@ -2,6 +2,10 @@
 title: AdGuard OPNSense Setup (with tailscale)
 date: 2023-12-21 09:43:50
 modified: 2024-02-03 15:31:13
+tags:
+- opnsense
+- adguard
+- tailscale
 ---
 
 [AdGuard Home setup guide](https://forum.opnsense.org/index.php?topic=22162.msg146626#msg146626)

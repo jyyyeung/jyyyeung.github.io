@@ -2,7 +2,10 @@
 title: Install Synology Active Backup for Business Agent on Linux
 created: 2023-12-16 13:37:48
 modified: 2024-02-03 15:28:22
-tags: [backup, linux]
+tags:
+- backup
+- linux
+- synology
 ---
 
 ## Error Permission Denied 

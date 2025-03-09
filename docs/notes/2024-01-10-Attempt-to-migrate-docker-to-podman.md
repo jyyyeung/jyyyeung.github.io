@@ -2,7 +2,9 @@
 title: Attempt to migrate docker to podman
 date: 2024-01-10 08:55:35
 modified: 2024-02-03 15:27:49
-tags: [docker, podman]
+tags:
+- docker
+- podman
 ---
 
 - [Podman vs Docker](https://www.smarthomebeginner.com/podman-vs-docker/)

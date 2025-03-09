@@ -1,3 +1,10 @@
+---
+tags:
+- networking
+- vlan
+---
+# VLANs 
+
 ## VLAN 137 - Guest 
 
 > Creating a separate VLAN for guests can prevent them from accessing your main devices and sensitive data. This ensures their devices are isolated from your primary network, enhancing security.

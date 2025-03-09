@@ -2,6 +2,9 @@
 title: sending Linux Logs to Graylog
 created: 2024-01-16 16:24:56
 modified: 2024-01-16 17:55:34
+tags:
+- graylog
+- filebeat
 ---
 ## Graylog Sidecar with Filebeat 
 - [Graylog Sidecar with Filebeat](https://go2docs.graylog.org/5-2/getting_in_log_data/graylog_sidecar.html)
@@ -9,7 +12,7 @@ modified: 2024-01-16 17:55:34
 
 ## Beats 
 To receive input from Graylog Sidecar, I need Beats to read from the Beats collector. 
-1. Update Graylog docker compose yaml file to open port for Beats 
+1. Update Graylog docker compose YAML file to open port for Beats 
 2. Install beats
 	1. It turns out that there are different "beats" (applications) for different log types 
 		   https://www.elastic.co/guide/en/beats/libbeat/current/beats-reference.html

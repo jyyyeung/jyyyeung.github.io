@@ -1,4 +1,9 @@
-# Install Proxmox on GMK M6
+---
+title: Install Proxmox on GMK M6
+tags:
+- proxmox
+- gmk-m6
+---
 
 ## Install from Ventoy
 

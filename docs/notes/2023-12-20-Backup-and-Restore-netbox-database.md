@@ -2,7 +2,10 @@
 title: Backup and Restore netbox database
 created: 2023-12-20 19:55:06
 modified: 2024-02-03 15:28:08
-tags: [netbox, backup, database]
+tags:
+- netbox
+- backup
+- database
 ---
 
 ```bash
