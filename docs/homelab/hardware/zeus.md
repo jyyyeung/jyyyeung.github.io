@@ -27,7 +27,7 @@ Zeus is a TP-Link TL-SE2109PB switch with 8 ports and 1 SFP+ port.
 | ---- | ------------------------------------- | -------------------- | --- |
 | 1    | Uplink to [Red Panda](./red-panda.md) | 2500Mbps Full Duplex | No  |
 | 2    | Omada EAP610 (AP)                     | 1000Mbps             | Yes |
-| 3    | [Apollo](./apollo.md)                 | 1000Mbps             | Yes |
+| 3    | [Apollo](./apollo)                    | 1000Mbps             | Yes |
 | 4    | Room 2                                | 1000Mbps             | Yes |
 | 5    | Room 3                                | 1000Mbps             | Yes |
 | 6    | ?                                     | ?                    | No  |

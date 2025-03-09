@@ -16,9 +16,9 @@ Note that this wiki will never be "up to date", as I am constantly playing with 
 
 ## 📖 Table of Contents
 
-- [Hardware](./hardware/intro)
-- [VMs](./vm/intro)
-- [Docker](./docker/intro)
+- [Hardware](./hardware/intro.md)
+- [VMs](./vm/intro.md)
+- [Docker](./docker/intro.md)
 
 ## 🌟 The beginning 
 
@@ -26,7 +26,7 @@ It all started with "I want to backup my photos", so I bought a Synology DS920+.
 
 ## 🌐 Networking 
 
-For hardware used, see [Hardware](./hardware/intro).
+For hardware used, see [Hardware](./hardware/intro.md).
 
 ### Software 
 

@@ -8,7 +8,7 @@ modified: 2025-02-26 14:30:00
 ---
 # 📦 VMs
 
-I use VMs to run applications that I want to have a dedicated environment for. Check out the [Hardware](../hardware/intro) page for the list of hosts running VMs.
+I use VMs to run applications that I want to have a dedicated environment for. Check out the [Hardware](../hardware/intro.md) page for the list of hosts running VMs.
 
 | Hostname                      | Host                                  | Main Purpose         | Status      |
 | ----------------------------- | ------------------------------------- | -------------------- | ----------- |
