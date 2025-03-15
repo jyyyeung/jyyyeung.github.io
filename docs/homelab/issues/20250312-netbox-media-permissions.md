@@ -51,5 +51,4 @@ cd media # Go to the media folder
 sudo chown -R 999:999 devicetype-images image-attachments
 ```
 
-Solved.
-
+![media uploaded successfully](assets/Pasted%20image%2020250312151014.png)Solved.

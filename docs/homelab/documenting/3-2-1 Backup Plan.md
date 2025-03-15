@@ -14,7 +14,6 @@ modified: 2024-01-17 09:37:04
 		- Configuration Files 
 			- [1st] Snapshot
 				- Proxmox (9:00pm) -> NAS (where snapshots are taken)
-				- 
 			- [2nd] 
 		- Device Backups 
 			- [1st] 
@@ -40,6 +39,12 @@ modified: 2024-01-17 09:37:04
 	- [1st] Synology ABB (daily) / rclone ? 
 	- [2nd] NAS B2 Encrypted Upload
 	- \* Ansible w/ GitHub?
+- [Primary] Proxmox
+	- [1st] (1:30) NAS through PBS [How To: Setup Synology NFS for Proxmox Backup Server Datastore](https://www.derekseaman.com/2023/04/how-to-setup-synology-nfs-for-proxmox-backup-server-datastore.html)
+		- (1:00) Prune
+		- (2:30) Verify
+		- (3:00) Garbage Collection
+	- [2nd] (4:00) NAS Encrypted Upload to OneDrive
 
 ## 2 Locations 
 > - Storing copies of your data in geographically separate locations.

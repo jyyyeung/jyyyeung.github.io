@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "aed39c20d5538e0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b0e8e42b546fda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abd3053635c560dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/homelab/documenting/3-2-1 Backup Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-2-1 Backup Plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00a228c1da7931e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f072e52a18fb145d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45feb16be93e8b5f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fbfcc6d3e59b34d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "35039f190c48634a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ecc7647ca83ddcbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4508a002391771ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50ac76fab5c937de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blog/2025-01-24-hello.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-01-24-hello"
+            }
+          },
+          {
+            "id": "7d6140dd9dbc8a7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blog/2025-01-24-hello.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-01-24-hello"
+            }
+          },
+          {
+            "id": "eb507345ff80a957",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2f74a2e57b0c19db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog/2025-01-24-hello.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-01-24-hello"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "open-vscode:VSCode": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "abd3053635c560dd",
+  "lastOpenFiles": [
+    "blog/2025-03-14-adding-new-ssd-to-pve.md",
+    "blog/2025-01-24-hello.md",
+    "blog/assets/Pasted image 20250314180012.png",
+    "blog/assets",
+    "docs/homelab/hardware/panda.md",
+    "docs/homelab/hardware/apollo.md",
+    "docs/homelab/hardware/bat.md",
+    "docs/homelab/hardware/intro.md",
+    "docs/homelab/hardware/red-panda.md",
+    "docs/homelab/hardware/sparrow.md",
+    "docs/homelab/hardware/zeus.md",
+    "docs/notes/2023-12-09-sync-netbox-with-snipe-it.md",
+    "docs/homelab/docker/vaultwarden.md",
+    "docs/homelab/docker/snipe-it.md",
+    "docs/homelab/docker/radicale.md",
+    "docs/homelab/docker/cloudflare.md",
+    "docs/homelab/docker/intro.md",
+    "docs/homelab/docker/homepage.md",
+    "docs/homelab/documenting/Security and Monitoring.md",
+    "docs/homelab/documenting/ip-ranges.md",
+    "docs/homelab/documenting/homelab devices naming.md",
+    "docs/homelab/documenting/Flowershow Setup.md",
+    "docs/homelab/documenting/Apps to Test.md",
+    "docs/homelab/issues/20250227-nas-network-negotiation-issue.md",
+    "docs/homelab/issues/20250312-netbox-media-permissions.md",
+    "docs/homelab/vm/bull.md",
+    "docs/homelab/vm/cobra.md",
+    "docs/homelab/issues/assets/Pasted image 20250312151014.png",
+    "docs/homelab/issues/assets/20250312-media-server-error.png"
+  ]
+}
