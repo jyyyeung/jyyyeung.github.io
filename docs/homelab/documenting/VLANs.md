@@ -17,10 +17,7 @@ tags:
 
 - Can not access SSH/web interfaces of these services, just their ports applicable to the service.
 
-## VLAN 39 - DMZ 
 
-- Only VLAN that can accept external connections on port 443
-- holds the external facing reverse proxy and has a double firewall
 
 ## VLAN 228 - IoT
 
@@ -38,6 +35,7 @@ for all the crap that needs Internet access but that I don't want sending messag
 	- PiHole? 
 - Layer Isolation on the Wireless AP
 	- so devices can not talk to one another 
+
 ## VLAN X - Wireguard
 
 connection for wireguard tunnel
@@ -63,6 +61,11 @@ Consider no internet access?
 ## VLAN X - Media Devices 
 > Devices like smart TVs, streaming devices, and gaming consoles can generate a lot of network traffic. Putting them on a separate VLAN can help prevent them from slowing down other critical devices.
 > https://www.reddit.com/r/homelab/comments/15ke7et/comment/jv9gf7k/?utm_source=share&utm_medium=web2x&context=3
+
+
+### VLAN 30 - Storage 
+
+### VLAN 150 - Proxmox Corosync
 
 ---
 

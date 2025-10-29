@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abd3053635c560dd",
+            "id": "9b8ed59d280a765a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/homelab/documenting/3-2-1 Backup Plan.md",
+                "file": "docs/notes/2024-01-18-Get_started_with_Ansible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-2-1 Backup Plan"
+              "title": "2024-01-18-Get_started_with_Ansible"
+            }
+          },
+          {
+            "id": "15972cf57026dd69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/homelab/hardware/panda.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "panda"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,38 +184,44 @@
       "command-palette:Open command palette": false,
       "open-vscode:VSCode": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "abd3053635c560dd",
+  "active": "15972cf57026dd69",
   "lastOpenFiles": [
-    "blog/2025-03-14-adding-new-ssd-to-pve.md",
-    "blog/2025-01-24-hello.md",
-    "blog/assets/Pasted image 20250314180012.png",
-    "blog/assets",
-    "docs/homelab/hardware/panda.md",
-    "docs/homelab/hardware/apollo.md",
     "docs/homelab/hardware/bat.md",
-    "docs/homelab/hardware/intro.md",
-    "docs/homelab/hardware/red-panda.md",
     "docs/homelab/hardware/sparrow.md",
-    "docs/homelab/hardware/zeus.md",
-    "docs/notes/2023-12-09-sync-netbox-with-snipe-it.md",
-    "docs/homelab/docker/vaultwarden.md",
-    "docs/homelab/docker/snipe-it.md",
-    "docs/homelab/docker/radicale.md",
-    "docs/homelab/docker/cloudflare.md",
-    "docs/homelab/docker/intro.md",
-    "docs/homelab/docker/homepage.md",
-    "docs/homelab/documenting/Security and Monitoring.md",
-    "docs/homelab/documenting/ip-ranges.md",
-    "docs/homelab/documenting/homelab devices naming.md",
-    "docs/homelab/documenting/Flowershow Setup.md",
-    "docs/homelab/documenting/Apps to Test.md",
+    "docs/notes/2024-09-24-setup_proxmox_on_m6.md",
+    "docs/notes/import vmdk to proxmox.md",
+    "docs/notes/2025-02-26-setting-up-adventurelog.md",
+    "docs/notes/intro.md",
+    "docs/notes/Omada Controller on Proxmox.md",
     "docs/homelab/issues/20250227-nas-network-negotiation-issue.md",
     "docs/homelab/issues/20250312-netbox-media-permissions.md",
-    "docs/homelab/vm/bull.md",
-    "docs/homelab/vm/cobra.md",
+    "docs/homelab/issues/stopping stubborn container.md",
+    "docs/notes/2023-12-09-sync-netbox-with-snipe-it.md",
+    "docs/notes/2023-12-12-Disable-IPv6-on-Proxmox.md",
+    "docs/notes/2023-12-12-Proxmox_Network_Port_Setup.md",
+    "docs/notes/2023-12-16.md",
+    "docs/notes/2023-12-16-Install_Synology_Active_Backup_for_Business_Agent_on_Linux.md",
+    "docs/notes/2023-12-20-Backup-and-Restore-netbox-database.md",
+    "docs/notes/2023-12-20-Backup-Linux-device-to-Synology-NAS-through-rsync.md",
+    "docs/notes/2023-12-21-AdGuard-OPNSense-Setup.md",
+    "docs/notes/2023-12-21-Plex_not_accessible_through_local_IP_with_tailscale_traefik_cloudflared.md",
+    "docs/notes/2024-01-10-Attempt-to-migrate-docker-to-podman.md",
+    "docs/notes/2024-01-12-ELK-Stack-Setup.md",
+    "docs/notes/2024-01-16-sending_Linux_Logs_to_Graylog.md",
+    "docs/notes/2024-01-18-Get_started_with_Ansible.md",
+    "docs/homelab/documenting/VLANs.md",
+    "docs/homelab/Useful Resources.md",
+    "docs/homelab/terminology.md",
+    "assets/Pasted image 20250319142950.png",
+    "assets",
+    "blog/assets/Pasted image 20250314180012.png",
+    "blog/assets",
     "docs/homelab/issues/assets/Pasted image 20250312151014.png",
     "docs/homelab/issues/assets/20250312-media-server-error.png"
   ]

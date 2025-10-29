@@ -1,0 +1,1 @@
+[IMPORT a Virtual Machine Template (OVA, VMDK, RAW, ...) into Proxmox! - YouTube](https://www.youtube.com/watch?v=k6-miz1Tb80&t=49s)

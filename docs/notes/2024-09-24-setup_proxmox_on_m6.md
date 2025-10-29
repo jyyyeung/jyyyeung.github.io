@@ -1,13 +1,17 @@
 ---
 title: Install Proxmox on GMK M6
 tags:
-- proxmox
-- gmk-m6
+  - proxmox
+  - gmk-m6
+  - setup
 ---
 
 ## Install from Ventoy
 
 [How to boot system from USB using GRUB](https://szymonkrajewski.pl/how-to-boot-system-from-usb-using-grub/)
+
+Notes:
+- To prevent VLAN issues, do not change the detected IP during initial setup, simply change it using `/etc/network/interfaces` later 
 
 ## Fix installation black screen
 
@@ -75,7 +79,7 @@ source /etc/network/interfaces.d/*
 
 ```bash
 # /etc/resolv.conf
-search sheepyy039.lan
+search lan.sheepyy039.xyz
 nameserver 192.168.3.1
 nameserver 192.168.100.1
 nameserver 8.8.4.4
@@ -115,3 +119,9 @@ blacklist nvidiafb
 
 1. View Join Cluster information from existing Proxmox nodes
 2. Paste the copied information to the new node
+
+---
+
+## GPU Passthrough 
+[iGPU(vGPU) Passthrough on MS-01: Proxmox, Ubuntu, and Plex Docker Transcoding \| Space Terran](https://spaceterran.com/posts/igpu-vgpu-passthrough-on-ms-01-proxmox-ubuntu-plex-docker-transcoding/)
+
