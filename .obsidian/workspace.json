@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/homelab/hardware/panda.md",
+                "file": "docs/homelab/hardware/phoenix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "panda"
+              "title": "phoenix"
             }
           }
         ],
@@ -192,6 +192,7 @@
   },
   "active": "15972cf57026dd69",
   "lastOpenFiles": [
+    "docs/homelab/hardware/panda.md",
     "docs/homelab/hardware/bat.md",
     "docs/homelab/hardware/sparrow.md",
     "docs/notes/2024-09-24-setup_proxmox_on_m6.md",
@@ -217,7 +218,6 @@
     "docs/notes/2024-01-18-Get_started_with_Ansible.md",
     "docs/homelab/documenting/VLANs.md",
     "docs/homelab/Useful Resources.md",
-    "docs/homelab/terminology.md",
     "assets/Pasted image 20250319142950.png",
     "assets",
     "blog/assets/Pasted image 20250314180012.png",
