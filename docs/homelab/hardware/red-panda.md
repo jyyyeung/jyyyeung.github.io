@@ -2,36 +2,53 @@
 
 ![Red Panda Neofetch](./assets/red-panda-neofetch.png)
 
+Standalone Proxmox host for **network infrastructure** — soft router, Omada controller, and related edge services. **Not** a member of the zs-lab PVE cluster (`sparrow`, `phoenix`, `duck`, `unicorn`). Treat as mission-critical: minimal changes, no experimental workloads, prefer long uptimes.
+
 ## Specs
 
-- OS: Proxmox VE
-- CPU: Intel Celeron J4125 (4) @ 2.700GHz
-- GPU: Intel GeminiLake [UHD Graphics 600]
-- Memory: 8GiB
+- OS: Proxmox VE (kernel 6.5.11-7-pve, Debian 12 bookworm)
+- CPU: Intel Celeron J4125 (4C/4T) @ 2.7 GHz
+- GPU: Intel UHD Graphics 600 (Gemini Lake, `i915`)
+- Memory: 8 GiB
+- Disk: 128 GB SSD (SanDisk i100)
 - Hostname: Red Panda
+- IP: `192.168.100.2` (management / LAN bridge)
 
-## Machines 
+## Network
 
-### 101 Omada LXC 
+| Interface | Chip           | Speed (observed) | Role (per `interfaces`)   |
+| --------- | -------------- | ---------------- | ------------------------- |
+| `enp1s0`  | Intel I226-V   | —                | Management                |
+| `enp2s0`  | Intel I226-V   | 2.5 Gbps         | LAN to switch             |
+| `eno1`    | onboard        | 100 Mbps         | WAN 1                     |
+| `enp4s0`  | Intel I226-V   | 1 Gbps           | WAN 2                     |
 
-- Memory: 2048MiB
+Also: `tailscale0`
+
+Bridges: `vmbr0` (mgmt + LAN), `vmbr0.100`, `vmbr0.15`, `vmbr1` (WAN 1), `vmbr2` (WAN 2)
+
+## VMs / LXCs
+
+### 101 Omada LXC
+
+- Memory: 2048 MiB
 - Cores: 2
-- Storage: 10GiB
-- Swap: 1024MiB
-- Network: bridge vmbr0 with static IP 192.168.100.4/24
+- Storage: 10 GiB
+- Swap: 1024 MiB
+- Network: bridge `vmbr0`, static IP `192.168.100.4/24`
 
-### 102 Opnsense
+### 102 OPNsense
 
-- Memory: 8.0GiB
+- Memory: 8.0 GiB
 - Cores: 4 (1 socket, 4 cores) [x86-64-v2-AES]
-- Storage: 40GiB
-- Network: 
-  - net0: bridge: vmbr0
-  - net1: bridge: vmbr1
-  - net2: bridge: vmbr2
-- Backup: Configuration backed up to GitHub 
+- Storage: 40 GiB
+- Network:
+  - net0: bridge `vmbr0`
+  - net1: bridge `vmbr1`
+  - net2: bridge `vmbr2`
+- Backup: configuration backed up to GitHub
 
-## Network Configuration
+## Network configuration
 
 ```bash
 # /etc/network/interfaces
@@ -90,3 +107,9 @@ iface vmbr2 inet manual
 
 source /etc/network/interfaces.d/*
 ```
+
+## Operational notes
+
+- Lives on **LAN** (`192.168.100.0/24`); not on the server subnet (`192.168.3.0/24`).
+- 8 GiB RAM is fully committed to OPNsense + Omada + PVE — do not schedule extra VMs here.
+- Prefer config backups (OPNsense → GitHub) over in-place experimentation.
